@@ -34,7 +34,7 @@ function* buyAnswer(action) {
 
 function* authSaga() {
   yield takeEvery("FETCH_ANSWERS", fetchAnswers);
-  yield takeEvery("CHECKIN_SITE", buyAnswer);
+  yield takeEvery("BUY_ANSWER", buyAnswer);
 }
 
 export default authSaga;

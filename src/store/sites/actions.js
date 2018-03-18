@@ -35,6 +35,33 @@ export async function checkinAction(location) {
         withCredentials: false
       }
     );
+
+    Alert.alert(data.statusText);
+
+    return data;
+  } catch (error) {
+    console.error(error);
+    throw new Error(error);
+  }
+}
+
+export async function createSiteAction(location) {
+  try {
+    const teamCode = await getTeamCode();
+
+    const { data } = await pthAxios.post(
+      "/checkin.php",
+      {
+        teamCode: teamCode,
+        lat: location.coords.latitude,
+        lon: location.coords.longitude,
+        addSite: true,
+        platform: Platform.OS
+      },
+      {
+        withCredentials: false
+      }
+    );
     console.warn(teamCode);
 
     Alert.alert(data.statusText);

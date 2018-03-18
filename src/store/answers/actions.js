@@ -16,17 +16,15 @@ export async function fetchAnswersAction(userData) {
   }
 }
 
-export async function buyAnswerAction(location) {
+export async function buyAnswerAction(site) {
   try {
     const teamCode = await getTeamCode();
 
     const { data } = await pthAxios.post(
-      "/checkin.php",
+      "/buy_answer.php",
       {
         teamCode: teamCode,
-        lat: location.coords.latitude,
-        lon: location.coords.longitude,
-        checkIn: true,
+        site,
         platform: Platform.OS
       },
       {
@@ -34,8 +32,6 @@ export async function buyAnswerAction(location) {
       }
     );
     console.warn(teamCode);
-
-    Alert.alert(data.statusText);
 
     return data;
   } catch (error) {

@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { StyleSheet, PixelRatio } from "react-native";
 
 export const ListItem = styled.View`
-  padding: 12px 0px;
+  padding: 18px 0px;
   padding-left: 0px;
   flex: 1;
   flex-direction: row;

@@ -10,7 +10,8 @@ import {
   TouchableHighlight,
   FlatList,
   RefreshControl,
-  Platform
+  Platform,
+  Alert
 } from "react-native";
 import { Row, Column, Header, Button, ButtonText } from "../../components";
 import { connect } from "react-redux";
@@ -30,13 +31,19 @@ class Login extends Component {
 
   constructor(props) {
     super(props);
-
-    this.logout = this.logout.bind(this);
-    this.props.fetchSites();
   }
 
-  logout() {
-    this.props.logout();
+  buyAnswer(number) {
+    Alert.alert(
+      `Buy Answer for site ${number}?`,
+      null,
+      [
+        { text: "Buy it!", onPress: () => this.props.buyAnswer(number); }
+      ],
+      { cancelable: true }
+    );
+
+
   }
 
   render() {
@@ -55,7 +62,7 @@ class Login extends Component {
             </View>
           ) : (
             <View>
-              <Button onPress={() => this.checkin()}>
+              <Button onPress={() => this.buyAnswer(site.number)}>
                 <ButtonText>Get Help</ButtonText>
               </Button>
             </View>
@@ -74,11 +81,8 @@ function mapStateToProps(state) {
 
 function mapDispatchToProps(dispatch) {
   return {
-    fetchSites: async data => {
-      dispatch({ type: "FETCH_SITES" });
-    },
-    logout: async data => {
-      dispatch({ type: "LOGOUT_AUTH", data });
+    buyAnswer: async data => {
+      dispatch({ type: "BUY_ANSWER", data });
     }
   };
 }
