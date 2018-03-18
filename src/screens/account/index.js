@@ -6,13 +6,14 @@ import {
   View,
   Image,
   KeyboardAvoidingView,
-  TouchableHighlight
+  TouchableHighlight,
+  Platform
 } from "react-native";
-import { Row, Column } from "../../components";
-import Button from "./components/button";
+import { Row, Column, Header, Button, ButtonText } from "../../components";
 import { connect } from "react-redux";
 import { PersistGate } from "redux-persist/es/integration/react";
 import { compose } from "redux";
+import globalStyles from "../../styles";
 
 const styles = StyleSheet.create({
   background: {
@@ -52,6 +53,13 @@ const styles = StyleSheet.create({
 });
 
 class Login extends Component {
+  static navigatorStyle = Platform.OS === "ios"
+    ? {}
+    : {
+        navBarBackgroundColor: globalStyles.colors.primary,
+        navBarTextColor: "#FFFFFF"
+      };
+
   constructor(props) {
     super(props);
 
@@ -68,7 +76,7 @@ class Login extends Component {
     const append = val => () => this.append(val);
     return (
       <PersistGate persistor={persistor}>
-        <View>
+        <View style={{ padding: 24, flex: 1 }}>
           <Column
             style={{
               alignItems: "center"
@@ -76,11 +84,12 @@ class Login extends Component {
           >
             <Row style={{ justifyContent: "center" }}>
               <Button
-                value={"Logout"}
                 onPress={() => {
                   this.logout();
                 }}
-              />
+              >
+                <ButtonText> Logout </ButtonText>
+              </Button>
             </Row>
           </Column>
         </View>

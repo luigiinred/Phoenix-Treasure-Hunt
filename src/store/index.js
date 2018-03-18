@@ -6,6 +6,8 @@ import createSagaMiddleware from "redux-saga";
 
 import auth from "./auth";
 import sites from "./sites";
+import answers from "./answers";
+import settings from "./settings";
 
 const sagaMiddleware = createSagaMiddleware();
 
@@ -16,7 +18,9 @@ const config = {
 
 const persistantReducer = persistCombineReducers(config, {
   auth: auth.reducer,
-  sites: sites.reducer
+  sites: sites.reducer,
+  answers: answers.reducer,
+  settings: settings.reducer
 });
 
 const middleware = [thunk, sagaMiddleware];
@@ -31,6 +35,8 @@ function configureStore(initialState) {
 
   sagaMiddleware.run(auth.saga);
   sagaMiddleware.run(sites.saga);
+  sagaMiddleware.run(answers.saga);
+  sagaMiddleware.run(settings.saga);
 
   return { store, persistor };
 }

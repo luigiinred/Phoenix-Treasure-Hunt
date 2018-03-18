@@ -1,4 +1,5 @@
-import { baseURL, checkStatus, getTeamCode } from "../constants";
+import { baseURL, checkStatus, getTeamCode, pthAxios } from "../utils";
+import { Alert, Platform } from "react-native";
 
 export async function fetchSitesAction(userData) {
   try {
@@ -17,24 +18,30 @@ export async function fetchSitesAction(userData) {
   }
 }
 
-export async function checkinAction(data) {
+export async function checkinAction(location) {
   try {
     const teamCode = await getTeamCode();
 
-    const response = await fetch(`${baseURL}/update_location_or_checkin.php`, {
-      method: "POST",
-      body: JSON.stringify({
+    const { data } = await pthAxios.post(
+      "/checkin.php",
+      {
         teamCode: teamCode,
-        lat: data.coords.latitude,
-        lon: data.coords.longitude,
-        checkIn: true
-      })
-    });
+        lat: location.coords.latitude,
+        lon: location.coords.longitude,
+        checkIn: true,
+        platform: Platform.OS
+      },
+      {
+        withCredentials: false
+      }
+    );
+    console.warn(teamCode);
 
-    checkStatus(response);
+    Alert.alert(data.statusText);
 
-    return await response.json();
+    return data;
   } catch (error) {
+    console.error(error);
     throw new Error(error);
   }
 }

@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import globalStyles from "../styles";
 
 export const Form = styled.View`
   padding: 0 24px;
@@ -7,7 +8,6 @@ export const Form = styled.View`
 `;
 
 export const Input = styled.TextInput`
-  font-family: "Exo 2";
   padding: 8px;
   border: 2px solid #dedede;
   font-size: 18;
@@ -15,13 +15,13 @@ export const Input = styled.TextInput`
 `;
 
 export const Header = styled.Text`
-  font-family: "Exo 2";
-  font-weight: bold;
-  font-size: 32;
+  font-weight: 900;
+  font-size: 36;
+  text-align: left;
+  color: #000000;
 `;
 
 export const Label = styled.Text`
-  font-family: "Exo 2";
   font-weight: bold;
   font-size: 18;
   margin-top: 22px;
@@ -29,26 +29,20 @@ export const Label = styled.Text`
 `;
 
 export const Button = styled.TouchableHighlight`
-  margin-top: 32px;
-  font-family: "Exo 2";
-  font-weight: bold;
   padding: 12px;
-  color: white;
-  border: 3px;
-
+  background-color: ${globalStyles.colors.primary};
   border-radius: 3px;
+  width: 100%;
+  margin-vertical: 8px;
 `;
 
 export const ButtonText = styled.Text`
-  font-family: "Exo 2";
-  font-weight: bold;
   color: white;
-  font-size: 18;
+  font-size: 16;
   text-align: center;
 `;
 
 export const Link = styled.Text`
-  font-family: "Exo 2";
   text-align: center;
   font-size: 16;
   margin-top: 32px;

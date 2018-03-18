@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/timmygarrabrant/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_981623390f5b24df99e9e0d60897d42793dd2a4b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/timmygarrabrant/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_e6b2775562ae8a73ad9093f173f5ae47da7af809.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.52.0/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_0a2454b2ca4edc8911b0cb6f07e87c6098f7f1fc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.52.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="af61eb11ffb4296cab0c93218248a3dfcec0a84c">
+        <dex dex="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.52.0_3fc3ae9ec072e6c72a8865d890f54a915627f31d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_08641eccd93ad234036d203c3d8a19ade7904049.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
+        <dex dex="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.3.0_42285b7a755294c9706bd03fff906f1d3fad04b8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/timmygarrabrant/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_e6b2775562ae8a73ad9093f173f5ae47da7af809.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.52.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="af61eb11ffb4296cab0c93218248a3dfcec0a84c">
+        <dex dex="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.52.0_3fc3ae9ec072e6c72a8865d890f54a915627f31d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
+        <dex dex="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.3.0_42285b7a755294c9706bd03fff906f1d3fad04b8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/timmygarrabrant/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/pre-dexed/debug/library-2.4.0_2198007a083a8d838793b4d045d387948d8a715b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.3.1_69f6550d7d2dd5a6104aad26770c7611f676695c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/timmygarrabrant/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_ca6edd56e7515a0ac9c7504c7d0d40a22d1670c0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/exploded-aar/com.aurelhubert/ahbottomnavigation/2.0.6/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c8ba41bea7f78f8bdf3a803b9d08eb3fff416706">
+        <dex dex="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/pre-dexed/debug/com.aurelhubert-ahbottomnavigation-2.0.6_984ee992dc86ec6f0fa922d6852f05b0e12ce7cc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_08641eccd93ad234036d203c3d8a19ade7904049.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.52.0/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_0a2454b2ca4edc8911b0cb6f07e87c6098f7f1fc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/timmygarrabrant/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_981623390f5b24df99e9e0d60897d42793dd2a4b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
+        <dex dex="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.3.0_1ba82ad4383460e29962381b1606817c887d8166.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.3.1_790b132bfe01a3acf37bca79ccbfc7b621a7c909.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
+        <dex dex="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.3.0_0f41c2d5efea32343109ffb89f3ac6f3d04afad5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/timmygarrabrant/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_9026437836be196594181e5e403a435e4db3cbb5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
+        <dex dex="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.3.0_1ba82ad4383460e29962381b1606817c887d8166.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.3.1_95701e93d92e1e2e8e11b9b64e065b7bca3414e7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/exploded-aar/com.balysv.materialmenu/material-menu-toolbar/1.5.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="55d7bf547c88cb7c8c7c5cdbf3b06dd66c9750f8">
+        <dex dex="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/pre-dexed/debug/com.balysv.materialmenu-material-menu-toolbar-1.5.4_bae0fa25eab063b7ebaa80445bd5c92b98e114cb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
+        <dex dex="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.3.0_0f41c2d5efea32343109ffb89f3ac6f3d04afad5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/timmygarrabrant/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_ca6edd56e7515a0ac9c7504c7d0d40a22d1670c0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
+        <dex dex="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.3.0_21f1bba152c70cd3de3d568ea9565fac6323b8f9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/timmygarrabrant/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_e4f82e88bad0ecb0e016331c433514ce7f8465b5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.3.1_48ca67d59ad21a5e093d1b9434383b91ed08b3a3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/timmygarrabrant/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_e4f82e88bad0ecb0e016331c433514ce7f8465b5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.3.1_238f26e3c24cc236de9b89e9082f5ec1fa409cb0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
+        <dex dex="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.3.0_8d0841e41eba238386d2ef9faba39288bfe9e92a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
+        <dex dex="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.3.0_21f1bba152c70cd3de3d568ea9565fac6323b8f9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.3.1_99273e2fa3d01ef891b4a48ef146e96b1b7de753.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
+        <dex dex="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.3.0_988f0ff6aefb3bc5cafe4a8323176c96bcdc7744.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_23797b14e3859b355551abd815d20d4cdc94e7a2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/exploded-aar/com.balysv.materialmenu/material-menu/1.5.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="1f6ff1728c297524e82b875ce2dfda946f4bca41">
+        <dex dex="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/pre-dexed/debug/com.balysv.materialmenu-material-menu-1.5.4_934285569dea2279c6b7f4b3596083df18820519.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/timmygarrabrant/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_014e75c49a5e19b976c590e19f42bec37e682616.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.3.1_58fd90fd440639f4e98157b73e7c10f2145393dd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
+        <dex dex="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.3.0_8d0841e41eba238386d2ef9faba39288bfe9e92a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/timmygarrabrant/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_20cdf492a530a3ecdfe96359cc1b5de46a22a6a4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.3.1_fd94ccc193163bbf2f4d0aead114e2990e4746b1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
+        <dex dex="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.3.0_988f0ff6aefb3bc5cafe4a8323176c96bcdc7744.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_23797b14e3859b355551abd815d20d4cdc94e7a2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/timmygarrabrant/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_9026437836be196594181e5e403a435e4db3cbb5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.3.1_8bb16bc841f6f636857944ac9bb95adb7fdf5af1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/timmygarrabrant/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_20cdf492a530a3ecdfe96359cc1b5de46a22a6a4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.3.1_dbc38336b89e134cd65a1177bb0e2bcc10777a15.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.3.1_0820c0b2622e63f40f3552ea2b9d456e61da749c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/timmygarrabrant/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/pre-dexed/debug/support-annotations-25.3.1_09dbd2185863a9b678d1cf52ee0c258a96feb771.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/exploded-aar/phoenixtreasurehunt/react-native-navigation/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b4620aca3e9cd299611360ebe828b185bfad7c65">
+        <dex dex="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/pre-dexed/debug/phoenixtreasurehunt-react-native-navigation-unspecified_b193c9fb7ad53db43fc81c1ebd9775431fac521d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/timmygarrabrant/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_014e75c49a5e19b976c590e19f42bec37e682616.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/exploded-aar/com.android.support/transition/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/pre-dexed/debug/com.android.support-transition-25.3.1_3e9b592d6a7a6f5dd98d8526617d777ddc731c72.jar" />
+    </item>
+
+</items>

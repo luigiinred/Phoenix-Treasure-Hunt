@@ -1,7 +1,7 @@
 const initialState = {
   isLoggingIn: false,
   isloggedIn: false,
-  data: null,
+  data: {},
   errors: {}
 };
 
@@ -11,7 +11,7 @@ export default function auth(state = initialState, action) {
       return {
         isloggedIn: false,
         isloggingIn: false,
-        data: null,
+        data: {},
         errors: null
       };
     }
@@ -30,7 +30,7 @@ export default function auth(state = initialState, action) {
       return {
         isloggedIn: false,
         isloggingIn: false,
-        data: null,
+        data: {},
         errors: action.errors
       };
     }

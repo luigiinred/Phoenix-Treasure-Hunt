@@ -1,0 +1,29 @@
+dependencies: \
+  /Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/node_modules/react-native/Libraries/Image/RCTImageLoader.m \
+  /Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTConvert.h \
+  /Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAnimationType.h \
+  /Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBorderStyle.h \
+  /Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h \
+  /Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
+  /Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
+  /Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTPointerEvents.h \
+  /Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTTextDecorationLineType.h \
+  /Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTImageLoader.h \
+  /Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
+  /Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTResizeMode.h \
+  /Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTURLRequestHandler.h \
+  /Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTURLRequestDelegate.h \
+  /Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTNetworking.h \
+  /Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTEventEmitter.h \
+  /Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTNetworkTask.h \
+  /Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/node_modules/react-native/Libraries/Image/RCTImageCache.h \
+  /Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/node_modules/react-native/Libraries/Image/RCTImageUtils.h

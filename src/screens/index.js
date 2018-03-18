@@ -4,6 +4,7 @@ import LoginScreen from "./login";
 import AccountScreen from "./account";
 import HomeScreen from "./home";
 import SitesScreen from "./sites";
+import ShowSiteScreen from "./showSite";
 
 // register all screens of the app (including internal ones)
 export function registerScreens(store, Provider) {
@@ -24,6 +25,13 @@ export function registerScreens(store, Provider) {
   Navigation.registerComponent(
     "phoenixtreasurehunt.SitesScreen",
     () => SitesScreen,
+    store,
+    Provider
+  );
+
+  Navigation.registerComponent(
+    "phoenixtreasurehunt.ShowSiteScreen",
+    () => ShowSiteScreen,
     store,
     Provider
   );

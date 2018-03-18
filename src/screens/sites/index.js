@@ -9,7 +9,8 @@ import {
   KeyboardAvoidingView,
   TouchableHighlight,
   FlatList,
-  RefreshControl
+  RefreshControl,
+  Platform
 } from "react-native";
 import {
   Row,
@@ -19,59 +20,37 @@ import {
   ListSubtitle,
   Divider
 } from "../../components";
-import Button from "./components/button";
 import { connect } from "react-redux";
 import { PersistGate } from "redux-persist/es/integration/react";
 import { compose } from "redux";
-
-const styles = StyleSheet.create({
-  background: {
-    flex: 1,
-    flexDirection: "row",
-    flexGrow: 1,
-    alignItems: "center",
-    backgroundColor: "#FFFFFF"
-  },
-  container: {
-    flex: 1,
-    flexDirection: "row"
-  },
-  containerRow: {
-    flex: 1,
-    flexDirection: "column",
-    alignItems: "center"
-  },
-  formContainer: {
-    height: 230,
-    padding: 20,
-    flex: 1,
-    flexDirection: "column",
-    backgroundColor: "#ffffff"
-  },
-  logoContainer: {
-    alignItems: "center",
-    flexGrow: 1,
-    justifyContent: "center"
-  },
-  input: {
-    flexGrow: 1,
-    flexDirection: "row",
-    height: 40,
-    marginBottom: 20
-  }
-});
+import globalStyles from "../../styles";
 
 class Login extends Component {
+  static navigatorStyle = Platform.OS === "ios"
+    ? {}
+    : {
+        navBarBackgroundColor: globalStyles.colors.primary,
+        navBarTextColor: "#FFFFFF",
+        navBarButtonColor: "#FFFFFF",
+        statusBarColor: globalStyles.colors.primaryDark
+      };
+
   constructor(props) {
     super(props);
 
-    this.logout = this.logout.bind(this);
     this.props.fetchSites();
+    this.props.fetchAnswers();
   }
 
-  logout() {
-    this.props.logout();
-  }
+  onForward = site => {
+    this.props.navigator.push({
+      screen: "phoenixtreasurehunt.ShowSiteScreen",
+      passProps: {
+        site
+      },
+      title: site.name
+    });
+  };
 
   render() {
     const { sites } = this.props;
@@ -88,24 +67,19 @@ class Login extends Component {
           />
         }
       >
-        {sites.isLoaded && (
-          <FlatList
-            data={sites.data}
-            ItemSeparatorComponent={() => (
-              <Divider style={{ marginLeft: 24 }} />
-            )}
-            renderItem={({ item }) => (
-              <TouchableHighlight key={item.number}>
-                <ListItem style={{ paddingLeft: 24 }}>
-                  <Column>
-                    <ListSubtitle>Site {item.number}</ListSubtitle>
-                    <ListTitle>{item.checkedIn ? item.name : "???"}</ListTitle>
-                  </Column>
-                </ListItem>
-              </TouchableHighlight>
-            )}
-          />
-        )}
+        {(sites.data || []).map(item => (
+          <TouchableHighlight
+            key={item.number}
+            onPress={() => item.checkedIn && this.onForward(item)}
+          >
+            <ListItem style={{ paddingLeft: 24 }}>
+              <Column>
+                <ListSubtitle>Site {item.number}</ListSubtitle>
+                <ListTitle>{item.checkedIn ? item.name : "???"}</ListTitle>
+              </Column>
+            </ListItem>
+          </TouchableHighlight>
+        ))}
       </ScrollView>
     );
   }
@@ -121,6 +95,9 @@ function mapDispatchToProps(dispatch) {
   return {
     fetchSites: async data => {
       dispatch({ type: "FETCH_SITES" });
+    },
+    fetchAnswers: async data => {
+      dispatch({ type: "FETCH_ANSWERS" });
     },
     logout: async data => {
       dispatch({ type: "LOGOUT_AUTH", data });

@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { StyleSheet, PixelRatio } from "react-native";
 
 export const ListItem = styled.View`
-  padding: 8px 0px;
+  padding: 12px 0px;
   padding-left: 0px;
   flex: 1;
   flex-direction: row;
@@ -18,18 +18,21 @@ export const ListIndex = styled.Text`
 `;
 
 export const ListTitle = styled.Text`
+  font-weight: 700;
+  color: #151515;
   font-size: 18;
 `;
 
 export const ListSubtitle = styled.Text`
-  color: #999;
+  font-weight: 700;
+  color: #7a7a7a;
   font-size: 14;
 `;
 
 export const ListPill = styled.Text``;
 
 export const Divider = styled.View`
-  background-color: #bbb;
+  background-color: #d3d3d3;
   height: ${1 / PixelRatio.get()};
   margin-left: 64px;
 `;

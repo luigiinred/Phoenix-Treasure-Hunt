@@ -1,4 +1,4 @@
-import { baseURL, checkStatus } from "../constants";
+import { baseURL, checkStatus } from "../utils";
 
 export async function login(userData) {
   try {

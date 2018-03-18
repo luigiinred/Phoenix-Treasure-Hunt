@@ -9,16 +9,20 @@ const tabs = [
   {
     label: "Home",
     screen: "phoenixtreasurehunt.HomeScreen",
-    title: "Home"
+    icon: require("../icons/home.png")
   },
   {
     label: "Sites",
     screen: "phoenixtreasurehunt.SitesScreen",
+    icon: require("../icons/sites.png"),
+
     title: "Sites"
   },
   {
     label: "Account",
     screen: "phoenixtreasurehunt.AccountScreen",
+    icon: require("../icons/user.png"),
+
     title: "Account"
   }
 ];
