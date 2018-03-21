@@ -70,7 +70,7 @@ class Login extends Component {
         {(sites.data || []).map(item => (
           <TouchableHighlight
             key={item.number}
-            onPress={() => item.checkedIn && this.onForward(item)}
+            onPress={item.checkedIn ? () => this.onForward(item) : null}
           >
             <ListItem style={{ paddingLeft: 24 }}>
               <Column>

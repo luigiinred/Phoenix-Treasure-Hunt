@@ -35,15 +35,19 @@ class Login extends Component {
 
   buyAnswer(number) {
     Alert.alert(
-      `Buy Answer for site ${number}?`,
+      `Buy the answer for site ${number}?`,
       null,
       [
-        { text: "Buy it!", onPress: () => this.props.buyAnswer(number); }
+        {
+          text: "Cancel",
+          onPress: () => console.log("Cancel Pressed"),
+          style: "cancel"
+        },
+
+        { text: "Buy it!", onPress: () => this.props.buyAnswer(number) }
       ],
       { cancelable: true }
     );
-
-
   }
 
   render() {
@@ -60,12 +64,14 @@ class Login extends Component {
                 {answers.data.answers[site.number]}
               </Text>
             </View>
-          ) : (
+          ) : answers.data.can_get[site.number] ? (
             <View>
               <Button onPress={() => this.buyAnswer(site.number)}>
                 <ButtonText>Get Help</ButtonText>
               </Button>
             </View>
+          ) : (
+            <Text>Nothing to see here... ¯\_(ツ)_/¯</Text>
           )}
         </Column>
       </View>

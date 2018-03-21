@@ -8,7 +8,7 @@ import {
   KeyboardAvoidingView,
   TouchableHighlight
 } from "react-native";
-import { Row, Column } from "../../components";
+import { Row, Column, Header, ButtonText } from "../../components";
 import Button from "./components/button";
 import { connect } from "react-redux";
 import { PersistGate } from "redux-persist/es/integration/react";
@@ -52,6 +52,10 @@ const styles = StyleSheet.create({
 });
 
 class Login extends Component {
+  static navigatorStyle = {
+    navBarHidden: true
+  };
+
   constructor(props) {
     super(props);
 
@@ -81,17 +85,21 @@ class Login extends Component {
     const append = val => () => this.append(val);
     return (
       <PersistGate persistor={persistor}>
-        <View>
+        <View style={{ paddingTop: 54 }}>
           <Column
             style={{
               alignItems: "center"
             }}
           >
-            <Text>{JSON.stringify(this.props.auth)}</Text>
-            <Text>Enter Team Code:</Text>
-            <Row style={{ justifyContent: "space-around" }}>
+            <Header style={{ fontSize: 24, paddingBottom: 18 }}>
+              Phoenix Treasure Hunt
+            </Header>
+            <Text style={{ fontSize: 18 }}>Enter Team Code:</Text>
+            <Row style={{ justifyContent: "space-between" }}>
               {Array.apply(null, Array(6)).map((_, idx) => (
-                <Text>{this.state.code[idx] || "•"}</Text>
+                <Header style={{ margin: 8 }}>
+                  {this.state.code[idx] || "•"}
+                </Header>
               ))}
             </Row>
             <Row style={{ justifyContent: "center" }}>

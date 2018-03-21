@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>application-identifier</key>
-	<string>A2VG7FKNF9.com.garrabrant.phoenixtreasurehunt</string>
+	<string>A2VG7FKNF9.com.garrabrant.pth</string>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>A2VG7FKNF9.com.garrabrant.phoenixtreasurehunt</string>
+		<string>A2VG7FKNF9.com.garrabrant.pth</string>
 	</array>
 </dict>
 </plist>

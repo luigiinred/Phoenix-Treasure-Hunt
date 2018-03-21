@@ -87,7 +87,7 @@ class Login extends Component {
             <Clock data={settings.data} />
           </View>
           <View>
-            {user.admin ? (
+            {user.admin === "1" ? (
               <View>
                 <Button onPress={() => this.createSite()}>
                   <ButtonText>Create Site Here</ButtonText>
