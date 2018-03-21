@@ -10,6 +10,7 @@ import {
 } from "react-native";
 import { Row, Column, Header, Button, ButtonText } from "../../components";
 import moment from "moment";
+
 class Clock extends Component {
   static navigatorStyle = {
     navBarHidden: true

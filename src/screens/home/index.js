@@ -6,7 +6,9 @@ import {
   View,
   Image,
   KeyboardAvoidingView,
-  TouchableHighlight
+  TouchableHighlight,
+  Linking,
+  Platform
 } from "react-native";
 import { Row, Column, Header, Button, ButtonText } from "../../components";
 import { connect } from "react-redux";
@@ -27,6 +29,20 @@ class Login extends Component {
       initialPosition: ""
     };
     this.props.fetchHuntSettings();
+  }
+
+  openMap(address) {
+    Linking.openURL(`http://maps.apple.com/maps?daddr=${address}`);
+
+    Platform.select({
+      ios: () => {
+        console.error("hasStarted");
+        Linking.openURL(`http://maps.apple.com/maps?daddr=${address}`);
+      },
+      android: () => {
+        Linking.openURL(`http://maps.google.com/maps?daddr=${address}`);
+      }
+    });
   }
 
   checkin(params) {
@@ -72,7 +88,14 @@ class Login extends Component {
   render() {
     const { auth: { data: user }, sites, settings } = this.props;
 
-    const { startTime, endTime, endMessage, startMessage } = settings.data;
+    const {
+      startTime,
+      endTime,
+      endMessage,
+      startMessage,
+      startAddress,
+      endAddress
+    } = settings.data;
 
     const hasStarted = moment(startTime) < moment();
     const hasEnded = moment(endTime) < moment();
@@ -94,10 +117,24 @@ class Login extends Component {
                 </Button>
               </View>
             ) : null}
-            {huntActive || user.admin ? (
+            {huntActive || user.admin === "1" ? (
               <View>
                 <Button onPress={() => this.checkin()}>
                   <ButtonText>Check in</ButtonText>
+                </Button>
+              </View>
+            ) : null}
+            {!hasStarted || user.admin === "1" ? (
+              <View>
+                <Button onPress={() => this.openMap(startAddress)}>
+                  <ButtonText>Directions to Start</ButtonText>
+                </Button>
+              </View>
+            ) : null}
+            {hasEnded || user.admin === "1" ? (
+              <View>
+                <Button onPress={() => this.openMap(endAddress)}>
+                  <ButtonText>Directions to Banquet</ButtonText>
                 </Button>
               </View>
             ) : null}
