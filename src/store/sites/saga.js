@@ -1,5 +1,10 @@
 import { call, put, takeEvery } from "redux-saga/effects";
-import { fetchSitesAction, checkinAction, createSiteAction } from "./actions";
+import {
+  fetchSitesAction,
+  checkinAction,
+  createSiteAction,
+  rateSiteAction
+} from "./actions";
 
 // worker Saga: will be fired on USER_FETCH_REQUESTED actions
 function* fetchSites(action) {
@@ -47,10 +52,26 @@ function* createSite(action) {
   }
 }
 
+function* rateSite(action) {
+  put({ type: "RATE_SITE_PENDING" });
+  try {
+    const data = yield call(rateSiteAction, action.data);
+
+    yield put({ type: "RATE_SITE_SUCCESS", data });
+    yield put({ type: "FETCH_SITES" });
+  } catch (e) {
+    yield put({
+      type: "RATE_SITE_FAIL",
+      errors: ["Invalid email/password."]
+    });
+  }
+}
+
 function* authSaga() {
   yield takeEvery("FETCH_SITES", fetchSites);
   yield takeEvery("CHECKIN_SITE", checkin);
   yield takeEvery("CREATE_SITE", createSite);
+  yield takeEvery("RATE_SITE", rateSite);
 }
 
 export default authSaga;

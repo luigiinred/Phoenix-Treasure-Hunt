@@ -45,6 +45,29 @@ export async function checkinAction(location) {
   }
 }
 
+export async function rateSiteAction({ site, rating }) {
+  try {
+    const teamCode = await getTeamCode();
+
+    const { data } = await pthAxios.post(
+      "/set_rating.php",
+      {
+        teamCode: teamCode,
+        site,
+        rating,
+        platform: Platform.OS
+      },
+      {
+        withCredentials: false
+      }
+    );
+
+    return data;
+  } catch (error) {
+    throw new Error(error);
+  }
+}
+
 export async function createSiteAction(location) {
   try {
     const teamCode = await getTeamCode();

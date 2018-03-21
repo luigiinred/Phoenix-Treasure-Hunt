@@ -33,8 +33,18 @@ class Login extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      starCount: 0
+      starCount: props.site.rating || 0
     };
+  }
+
+  setRating(rating) {
+    this.setState({
+      starCount: rating
+    });
+    this.props.rateSite({
+      rating,
+      site: this.props.site.number
+    });
   }
 
   buyAnswer(number) {
@@ -69,11 +79,7 @@ class Login extends Component {
               disabled={false}
               maxStars={5}
               rating={this.state.starCount}
-              selectedStar={rating =>
-                this.setState({
-                  starCount: rating
-                })
-              }
+              selectedStar={rating => this.setRating(rating)}
             />
             {answers.data.answers[site.number] && (
               <View>
@@ -112,6 +118,9 @@ function mapDispatchToProps(dispatch) {
   return {
     buyAnswer: async data => {
       dispatch({ type: "BUY_ANSWER", data });
+    },
+    rateSite: async data => {
+      dispatch({ type: "RATE_SITE", data });
     }
   };
 }
