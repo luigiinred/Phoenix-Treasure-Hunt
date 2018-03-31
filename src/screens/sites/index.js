@@ -24,6 +24,7 @@ import { connect } from "react-redux";
 import { PersistGate } from "redux-persist/es/integration/react";
 import { compose } from "redux";
 import globalStyles from "../../styles";
+import StarRating from "react-native-star-rating";
 
 class Login extends Component {
   static navigatorStyle = Platform.OS === "ios"
@@ -72,10 +73,23 @@ class Login extends Component {
             key={item.number}
             onPress={item.checkedIn ? () => this.onForward(item) : null}
           >
-            <ListItem style={{ paddingLeft: 24 }}>
+            <ListItem style={{ paddingLeft: 24, flex: 1 }}>
               <Column>
                 <ListSubtitle>Site {item.number}</ListSubtitle>
                 <ListTitle>{item.checkedIn ? item.name : "???"}</ListTitle>
+                {item.checkedIn &&
+                  (item.rating ? (
+                    <View style={{ width: 120 }}>
+                      <StarRating
+                        starSize={18}
+                        disabled={true}
+                        maxStars={5}
+                        rating={item.rating}
+                      />
+                    </View>
+                  ) : (
+                    <Text>Not Rated.</Text>
+                  ))}
               </Column>
             </ListItem>
           </TouchableHighlight>

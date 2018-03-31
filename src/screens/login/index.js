@@ -74,13 +74,18 @@ class Login extends Component {
     });
   }
 
+  componentWillReceiveProps(props) {
+    this.setState({ error: !!props.auth.errors });
+  }
+
   append(val) {
     if (this.state.code.length >= 6) return;
     this.setState({ code: this.state.code.concat([val]) });
   }
 
   render() {
-    const { firebase: auth, persistor, firebase } = this.props;
+    const { auth, persistor } = this.props;
+    const { error } = this.state;
 
     const append = val => () => this.append(val);
     return (
@@ -91,14 +96,17 @@ class Login extends Component {
               alignItems: "center"
             }}
           >
-            <Header style={{ fontSize: 24, paddingBottom: 18 }}>
-              Phoenix Treasure Hunt
-            </Header>
+            {error && (
+              <Text style={{ fontSize: 16, color: "red" }}>
+                Invalid Team Code
+              </Text>
+            )}
+
             <Text style={{ fontSize: 18 }}>Enter Team Code:</Text>
             <Row style={{ justifyContent: "space-between" }}>
               {Array.apply(null, Array(6)).map((_, idx) => (
                 <Header style={{ margin: 8 }}>
-                  {this.state.code[idx] || "•"}
+                  {this.state.code[idx] == null ? "•" : this.state.code[idx]}
                 </Header>
               ))}
             </Row>
@@ -120,7 +128,7 @@ class Login extends Component {
             <Row style={{ justifyContent: "center" }}>
               <Button
                 value={"Clear"}
-                onPress={() => this.setState({ code: [] })}
+                onPress={() => this.setState({ code: [], error: false })}
               />
               <Button value={0} onPress={append(0)} />
               <Button

@@ -22,7 +22,6 @@ const tabs = [
     label: "Account",
     screen: "phoenixtreasurehunt.AccountScreen",
     icon: require("../icons/user.png"),
-
     title: "Account"
   }
 ];

@@ -47,8 +47,8 @@ class Clock extends Component {
         <Text>
           {days ? `${days} days ` : ""}
           {hours ? `${hours} hours ` : ""}
-          {minutes ? `${minutes} minutes ` : ""}
-          {hasStarted ? "until hunt ends." : "until hunt begins."}
+          {minutes} minutes
+          {hasStarted ? " until hunt ends." : " until hunt begins."}
         </Text>
         <Text />
         {!hasStarted && <Text>{startMessage}</Text>}
