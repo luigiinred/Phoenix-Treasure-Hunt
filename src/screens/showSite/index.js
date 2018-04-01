@@ -49,7 +49,7 @@ class Login extends Component {
 
   buyAnswer(number) {
     Alert.alert(
-      `Buy the answer for site ${number}?`,
+      `Request the answer for site ${number}?`,
       null,
       [
         {
@@ -58,7 +58,7 @@ class Login extends Component {
           style: "cancel"
         },
 
-        { text: "Buy it!", onPress: () => this.props.buyAnswer(number) }
+        { text: "Get Answer!", onPress: () => this.props.buyAnswer(number) }
       ],
       { cancelable: true }
     );

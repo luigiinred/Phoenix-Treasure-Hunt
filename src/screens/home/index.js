@@ -29,6 +29,10 @@ class Login extends Component {
       initialPosition: ""
     };
     this.props.fetchHuntSettings();
+
+    setInterval(() => {
+      this.forceUpdate();
+    }, 1000);
   }
 
   openMap(address) {
