@@ -69,8 +69,7 @@ export default class App {
         passProps: {
           persistor
         },
-        animationType: "slide-down",
-        appStyle: {}
+        animationType: "slide-down"
       });
     }
   }

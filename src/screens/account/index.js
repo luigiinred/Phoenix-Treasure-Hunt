@@ -52,12 +52,15 @@ const styles = StyleSheet.create({
   }
 });
 
-class Login extends Component {
+class Account extends Component {
   static navigatorStyle = Platform.OS === "ios"
     ? {}
     : {
         navBarBackgroundColor: globalStyles.colors.primary,
-        navBarTextColor: "#FFFFFF"
+        navBarTextColor: "#FFFFFF",
+        navBarButtonColor: "#FFFFFF",
+        statusBarColor: globalStyles.colors.primaryDark,
+        navBarTranslucent: false
       };
 
   constructor(props) {
@@ -112,4 +115,4 @@ function mapDispatchToProps(dispatch) {
   };
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(Login);
+export default connect(mapStateToProps, mapDispatchToProps)(Account);

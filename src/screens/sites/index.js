@@ -26,14 +26,15 @@ import { compose } from "redux";
 import globalStyles from "../../styles";
 import StarRating from "react-native-star-rating";
 
-class Login extends Component {
+class ListSites extends Component {
   static navigatorStyle = Platform.OS === "ios"
     ? {}
     : {
         navBarBackgroundColor: globalStyles.colors.primary,
         navBarTextColor: "#FFFFFF",
         navBarButtonColor: "#FFFFFF",
-        statusBarColor: globalStyles.colors.primaryDark
+        statusBarColor: globalStyles.colors.primaryDark,
+        navBarTranslucent: false
       };
 
   constructor(props) {
@@ -119,4 +120,4 @@ function mapDispatchToProps(dispatch) {
   };
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(Login);
+export default connect(mapStateToProps, mapDispatchToProps)(ListSites);

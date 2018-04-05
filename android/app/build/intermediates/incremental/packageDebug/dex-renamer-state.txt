@@ -1,4 +1,4 @@
-#Sat Mar 17 10:02:22 MST 2018
+#Wed Apr 04 20:57:55 MST 2018
 base.0=/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
 renamed.0=classes.dex
 file.0=/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

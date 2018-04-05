@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/res/merged/release/menu/stub.xml",
+        "source": "/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/exploded-aar/phoenixtreasurehunt/react-native-navigation/unspecified/res/menu/stub.xml"
+    },
+    {
+        "merged": "/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/res/merged/release/menu/search_item.xml",
+        "source": "/Users/timmygarrabrant/Documents/Development.nosync/phoenix-treasure-hunt/android/app/build/intermediates/exploded-aar/phoenixtreasurehunt/react-native-navigation/unspecified/res/menu/search_item.xml"
+    }
+]
